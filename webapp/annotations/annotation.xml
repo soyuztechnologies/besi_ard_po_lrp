@@ -1,0 +1,182 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Communication.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/ard/MM_CO_FIORI_SRV/$metadata">
+        <edmx:Include Namespace="ARD.MM_CO_FIORI_SRV"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Lifnr">
+                <Annotation Term="Common.Text" Path="Name1"/>
+                <Annotation Term="Common.Label" String="{@i18n>Lifnr}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Ebeln">
+                <Annotation Term="Common.Text" Path="Txz01"/>
+                <Annotation Term="Common.Label" String="{@i18n>Ebeln}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Bukrs">
+                <Annotation Term="Common.Label" String="{@i18n>Bukrs}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/CoZuko">
+                <Annotation Term="Common.Label" String="{@i18n>CoZuko}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Mtart">
+                <Annotation Term="Common.Label" String="{@i18n>MTART}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Matnr">
+                <Annotation Term="Common.Label" String="{@i18n>Matnr}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Matkl">
+                <Annotation Term="Common.Label" String="{@i18n>Matkl}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Waers">
+                <Annotation Term="Common.Label" String="{@i18n>WAERS}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Ekgrp">
+                <Annotation Term="Common.Label" String="{@i18n>Ekgrp}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Ekorg">
+                <Annotation Term="Common.Label" String="{@i18n>Ekorg}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Werks">
+                <Annotation Term="Common.Label" String="{@i18n>WERKS}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Kostl">
+                <Annotation Term="Common.Label" String="{@i18n>KOSTL}"/>
+            </Annotations>
+
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Ebelp">
+                <Annotation Term="Common.Label" String="{@i18n>Ebelp}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Loekz">
+                <Annotation Term="Common.Label" String="{@i18n>LOEKZ}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Eindt">
+                <Annotation Term="Common.Label" String="{@i18n>Eindt}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Unsez">
+                <Annotation Term="Common.Label" String="{@i18n>UNSEZ}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Ihrez">
+                <Annotation Term="Common.Label" String="{@i18n>IHREZ}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Producttype">
+                <Annotation Term="Common.Label" String="{@i18n>PRODUCTTYPE}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Elikz">
+                <Annotation Term="Common.Label" String="{@i18n>ELIKZ}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Effwr">
+                <Annotation Term="Common.Label" String="{@i18n>EFFWR}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Erekz">
+                <Annotation Term="Common.Label" String="{@i18n>EREKZ}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Menge">
+                <Annotation Term="Common.Label" String="{@i18n>MENGE}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Meins">
+                <Annotation Term="Common.Label" String="{@i18n>MEINS}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Knttp">
+                <Annotation Term="Common.Label" String="{@i18n>KNTTP}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Sakto">
+                <Annotation Term="Common.Label" String="{@i18n>SAKTO}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/PsPspPnr">
+                <Annotation Term="Common.Label" String="{@i18n>PsPspPnr}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Anln1">
+                <Annotation Term="Common.Label" String="{@i18n>ANLN1}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Anln2">
+                <Annotation Term="Common.Label" String="{@i18n>ANLN2}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Gsber">
+                <Annotation Term="Common.Label" String="{@i18n>GSBER}"/>
+            </Annotations>
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList/Mwskz">
+                <Annotation Term="Common.Label" String="{@i18n>MWSKZ}"/>
+            </Annotations>
+
+
+            <Annotations Target="ARD.MM_CO_FIORI_SRV.EtList">
+                <Annotation Term="UI.HeaderInfo" >
+                    <Record Type="UI.HeaderInfoType">
+                        <PropertyValue Property="TypeName" String="{@i18n>PO}"/>
+                        <PropertyValue Property="TypeNamePlural" String="{@i18n>POs}"/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.SelectionFields" >
+                    <Collection>
+                        <PropertyPath>Ebeln</PropertyPath>
+                        <PropertyPath>Lifnr</PropertyPath>
+                        <PropertyPath>Bukrs</PropertyPath>
+                        <PropertyPath>Werks</PropertyPath>
+                        <PropertyPath>Ekorg</PropertyPath>
+                        <PropertyPath>Waers</PropertyPath>
+                        <PropertyPath>Matkl</PropertyPath>
+                        <PropertyPath>Matnr</PropertyPath>
+                        <PropertyPath>Mtart</PropertyPath>
+                        <PropertyPath>CoZuko</PropertyPath>
+                        <PropertyPath>Kostl</PropertyPath>
+                    </Collection>
+                </Annotation>
+                <Annotation Term="UI.LineItem" >
+                    <Collection>
+                        <Record Type="UI.DataField" >
+                            <PropertyValue Property="Label" String="{@i18n>Ebeln}"/>
+                            <PropertyValue Property="Value" Path="Ebeln"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>Ebelp}"/>
+                            <PropertyValue Property="Value" Path="Ebelp"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <!-- <PropertyValue Property="Label" String="{@i18n>Ebelp}"/> -->
+                            <PropertyValue Property="Value" Path="Zekkn"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>Lifnr}"/>
+                            <PropertyValue Property="Value" Path="Lifnr"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>Ekorg}"/>
+                            <PropertyValue Property="Value" Path="Ekorg"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>Bukrs}"/>
+                            <PropertyValue Property="Value" Path="Bukrs"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>Matnr}"/>
+                            <PropertyValue Property="Value" Path="Matnr"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>Matkl}"/>
+                            <PropertyValue Property="Value" Path="Matkl"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <!-- <PropertyValue Property="Label" String="{@i18n>Ebelp}"/> -->
+                            <PropertyValue Property="Value" Path="Waers"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>Ekgrp}"/>
+                            <PropertyValue Property="Value" Path="Ekgrp"/>
+                        </Record>
+
+                    </Collection>
+                </Annotation>
+                
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
